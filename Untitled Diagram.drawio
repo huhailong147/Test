@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-25T10:28:16.540Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="TzSooShgBSLTmu2iT_hA" version="14.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-25T10:28:33.567Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="tKbLw7gz452hEDFcmKp2" version="14.1.9" type="github">
   <diagram id="8xy49Yy-WbqqwLBvjp84" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -97,7 +97,7 @@
         <mxCell id="0mgxu4YF21upmARTWM3I-29" value="aws-sqs" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="910" y="975" width="220" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="q5y677ugaN41BccxbJmW-2" value="aws-sns" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="q5y677ugaN41BccxbJmW-2" value="aws-iot" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1200" y="940" width="220" height="180" as="geometry" />
         </mxCell>
         <mxCell id="q5y677ugaN41BccxbJmW-7" value="pub" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=0.16;entryY=0.55;entryDx=0;entryDy=0;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="0mgxu4YF21upmARTWM3I-29" target="q5y677ugaN41BccxbJmW-2">
