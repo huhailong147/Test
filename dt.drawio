@@ -1,12 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2021-03-01T09:56:41.227Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="d7QsRZlNKuQUPUyD_wbU" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-01T09:59:31.791Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="8ZqZ-ub6ryVyB1Cx_ytf" version="14.2.7" type="github">
   <diagram id="2j3BqqWGUeaKbbwyQfUJ" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="VOX5vmG1u6_elUsQBF4A-31" value="" style="rectangle;whiteSpace=wrap;html=1;align=center;dashed=1;opacity=40;" parent="1" vertex="1">
-          <mxGeometry x="37" y="390" width="890" height="180" as="geometry" />
-        </mxCell>
         <mxCell id="FQamigRR9yVPWJwrXYzR-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="69" y="400" width="115" height="130" as="geometry" />
         </mxCell>
@@ -36,10 +33,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VOX5vmG1u6_elUsQBF4A-11" value="manage interface" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="VOX5vmG1u6_elUsQBF4A-4" target="VOX5vmG1u6_elUsQBF4A-3" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <mxCell id="VOX5vmG1u6_elUsQBF4A-11" value="manage &lt;br&gt;interface" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="VOX5vmG1u6_elUsQBF4A-4" target="VOX5vmG1u6_elUsQBF4A-3" edge="1">
+          <mxGeometry x="0.4545" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="442" y="430" as="sourcePoint" />
             <mxPoint x="492" y="380" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VOX5vmG1u6_elUsQBF4A-18" value="服务器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -121,7 +119,7 @@
         <mxCell id="Ec_-oU3Fv35i8qn7t8n8-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Ec_-oU3Fv35i8qn7t8n8-6">
           <mxGeometry x="45" y="80" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ec_-oU3Fv35i8qn7t8n8-26" value="网关列表" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=1.1;entryY=0.738;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Ec_-oU3Fv35i8qn7t8n8-6" target="Ec_-oU3Fv35i8qn7t8n8-23">
+        <mxCell id="Ec_-oU3Fv35i8qn7t8n8-26" value="现场列表" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=1.1;entryY=0.738;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Ec_-oU3Fv35i8qn7t8n8-6" target="Ec_-oU3Fv35i8qn7t8n8-23">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="170" y="140" as="sourcePoint" />
             <mxPoint x="90" y="140" as="targetPoint" />
@@ -190,13 +188,13 @@
         <mxCell id="Ec_-oU3Fv35i8qn7t8n8-50" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Ec_-oU3Fv35i8qn7t8n8-18">
           <mxGeometry x="45" y="510" width="10" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="Ec_-oU3Fv35i8qn7t8n8-28" value="网关查询" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+        <mxCell id="Ec_-oU3Fv35i8qn7t8n8-28" value="现场查询" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="520" y="850" as="sourcePoint" />
             <mxPoint x="630" y="850" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ec_-oU3Fv35i8qn7t8n8-29" value="首页+网关列表" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=1.1;entryY=0.738;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="Ec_-oU3Fv35i8qn7t8n8-29" value="首页+现场列表" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=1.1;entryY=0.738;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="500" y="900" as="sourcePoint" />
             <mxPoint x="270" y="899.5" as="targetPoint" />
@@ -207,9 +205,9 @@
             <mxPoint x="555" y="930" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ec_-oU3Fv35i8qn7t8n8-32" value="openvpn客户端用户名、密码" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="Ec_-oU3Fv35i8qn7t8n8-30" parent="1" target="Ec_-oU3Fv35i8qn7t8n8-8">
+        <mxCell id="Ec_-oU3Fv35i8qn7t8n8-32" value="openvpn客户端用户名、密码" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;entryX=1.1;entryY=0.642;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="Ec_-oU3Fv35i8qn7t8n8-30" parent="1" target="Ec_-oU3Fv35i8qn7t8n8-33">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="555" y="1006" as="targetPoint" />
+            <mxPoint x="280" y="1006" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ec_-oU3Fv35i8qn7t8n8-39" value="连接openvpn服务器" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;exitX=1.1;exitY=0.223;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="Ec_-oU3Fv35i8qn7t8n8-38" parent="1" source="Ec_-oU3Fv35i8qn7t8n8-34">
@@ -227,10 +225,10 @@
             <mxPoint x="750" y="1090" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ec_-oU3Fv35i8qn7t8n8-45" value="IP、路由" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1">
+        <mxCell id="Ec_-oU3Fv35i8qn7t8n8-45" value="IP、路由" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=-0.2;entryY=0.736;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Ec_-oU3Fv35i8qn7t8n8-38">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="640" y="1150" as="sourcePoint" />
-            <mxPoint x="760" y="1150" as="targetPoint" />
+            <mxPoint x="750" y="1150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ec_-oU3Fv35i8qn7t8n8-51" value="连接命令" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="Ec_-oU3Fv35i8qn7t8n8-18" parent="1" source="Ec_-oU3Fv35i8qn7t8n8-48">
@@ -260,6 +258,9 @@
             <mxPoint x="920" y="1450" as="sourcePoint" />
             <mxPoint x="840" y="1450" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="VOX5vmG1u6_elUsQBF4A-31" value="" style="rectangle;whiteSpace=wrap;html=1;align=center;dashed=1;opacity=40;" parent="1" vertex="1">
+          <mxGeometry x="37" y="390" width="890" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
