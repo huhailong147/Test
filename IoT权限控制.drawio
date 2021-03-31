@@ -1,1 +1,44 @@
-<mxfile host="app.diagrams.net" modified="2021-03-31T07:04:23.875Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="A6SNIXDqz7yIJYjKoiY_" version="14.4.3" type="github"><diagram id="pYlbQhkEn5CV2Vieloeu" name="Page-1">3VjbcpswEP0aPabD/fKIMO5l0k47aSaPHdnIQIuRK8u3fH1XQhgw2Ek6ySSTGT+Iw0orzjnaVYLseLn/yMkq/8pSWiLLSPfIniDLMh3LQvJnpIca8T0NZLxIdVAL3BT3VIOGRjdFSte9QMFYKYpVH5yzqqJz0cMI52zXD1uwsp91RTI6AG7mpByid0Uq8hoNLL/FP9Eiy5vMphfWb5akCdZfss5JynYdyE6QHXPGRD1a7mNaSvIaXup50zNvjxvjtBKPmcC3d39vb378muHbLJ7HXpCxb1d2vcqWlBv9wXqz4tAwQFMgRD8yLnKWsYqUSYtizjZVSmUaA57amGvGVgCaAP6mQhy0umQjGEC5WJb6bZ1TJjr7bRpasw2f0wsf1HiE8IyKC3HWUQGwLmVLKvgB5nFaElFs+/sg2kPZMa6lGQaa6Sew7gxY36xSIugXNhul/5rM4Fj1KCNlkVUwngNDlAOwpVwU4NtIv1gWaVqrQ9fFPZmp9aQ+K1ZUQn2Ri5E7OdIvF6B7NHKo9OTWyl1hzttqyK5e/cr4YHqBJuHRjOvlvsvtd0LYYrEGpU8lOWb9f5XM4dlIfIRthLEaYBROUeKiIEDhRA4iHwVYITEKPZR4KIQwbyBp/7zs8kLQmxVRtt5BFR07GyPiDE7HWb5NV+t2aIqUft61Fc1stM071cwzXugAWANqTZTYKDBQYDaUKiaBZByhJJQMh6GkVMco/qWHvBI2i2ccRpkcWRcX8lE0Udr4KATB3OF8uzMfskXyN5ym9Vc5ogSFkU6Gjc7WTmR/QOi+K5rzXdKFeB4XON5bc4H/3pqP+8jm471m8wkGrJM0fR9tx3+w7Ti9I9DUobfbg9yRHjSsaoGsQThRxchBgf92W4/lvnbR8UYYPdb5MSKxqueS9QhFxnPX+Rco7K/PcTh6czptoZ5s6oGtujv8gNEpwrHspYOm3L0dAPlTFCZKtUQtpBX5zH4+eB2Y6p6NA5W5sygIH1lqL/DKlWsljso00VuW1w9HTpRuCGUwRF68Pjwhn0TAbpG6R0jHqSsOUAH+Gsl64jjwjuibbC04+0NjVjIo0pOKVbIkL4qyPIFOrhlnq/mYp5/dyKfFwvaHRnbsESP7TzcyPLZ/etfVuv0Hhp38Aw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-31T07:16:18.272Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="agrGFgX0T-XRW7AJaaLi" version="14.4.3" type="github">
+  <diagram id="pYlbQhkEn5CV2Vieloeu" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7DndTKOdpqZqmhhJSflZ-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="70" width="480" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="rvWqUSQ_bBUgCcC68goN-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="rvWqUSQ_bBUgCcC68goN-1" target="rvWqUSQ_bBUgCcC68goN-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rvWqUSQ_bBUgCcC68goN-4" value="updateJob" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="rvWqUSQ_bBUgCcC68goN-3" vertex="1" connectable="0">
+          <mxGeometry x="-0.1684" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvWqUSQ_bBUgCcC68goN-1" value="系统初始化时" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rvWqUSQ_bBUgCcC68goN-2" value="1、创建静态组&lt;br&gt;2、创建策略&lt;br&gt;3、把策略绑定到组" style="whiteSpace=wrap;html=1;rounded=0;align=left;" parent="1" vertex="1">
+          <mxGeometry x="460" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rvWqUSQ_bBUgCcC68goN-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="rvWqUSQ_bBUgCcC68goN-5" target="rvWqUSQ_bBUgCcC68goN-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rvWqUSQ_bBUgCcC68goN-8" value="add" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="rvWqUSQ_bBUgCcC68goN-7" vertex="1" connectable="0">
+          <mxGeometry x="-0.14" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvWqUSQ_bBUgCcC68goN-5" value="创建设备时" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rvWqUSQ_bBUgCcC68goN-6" value="把设备添加到组" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="460" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rvWqUSQ_bBUgCcC68goN-9" value="策略权限：&lt;br&gt;1、连接到IoT&lt;br&gt;2、发布、订阅IoT保留主题&lt;br&gt;3、发布、订阅自己的主题" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="150" y="370" width="430" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
