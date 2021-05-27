@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-27T07:32:43.082Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="VcYM3VK6HcklNnY9RvGj" version="14.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-27T07:35:44.695Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="ZSee7PDYnkXs_0PhVwRt" version="14.7.1" type="github">
   <diagram id="DqvLxxbkgls3zVLwa2Ui" name="Page-1">
     <mxGraphModel dx="2249" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -81,6 +81,18 @@
         </mxCell>
         <mxCell id="g6jKSNpaKEoggSbXmEaC-27" value="平台" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="190" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="g6jKSNpaKEoggSbXmEaC-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g6jKSNpaKEoggSbXmEaC-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="470" />
+              <mxPoint x="210" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g6jKSNpaKEoggSbXmEaC-28" value="&lt;h1&gt;message&lt;/h1&gt;&lt;div&gt;&lt;pre class=&quot;cm-s-default&quot; style=&quot;box-sizing: border-box ; margin-top: 0px ; margin-bottom: 0px ; overflow: visible ; border-radius: 0px ; border-width: 0px ; background: rgb(249 , 249 , 249) ; overflow-wrap: normal ; line-height: inherit ; z-index: 2 ; position: relative ; padding: 0px ; word-break: break-word&quot;&gt;&lt;span class=&quot;lake-preview-line&quot; style=&quot;box-sizing: border-box ; display: flex&quot;&gt;&lt;span class=&quot;lake-preview-codeblock-content&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;font color=&quot;#595959&quot; face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 13px ; letter-spacing: 0.12px&quot;&gt;{&lt;br&gt;  &quot;url&quot;: &quot;&lt;/span&gt;&lt;span style=&quot;font-size: 13px ; letter-spacing: 0.12px&quot;&gt;http://hu.hailong.com/xxx?token=xxx&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 13px ; letter-spacing: 0.12px ; color: rgb(89 , 89 , 89) ; font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;&quot;&lt;br/&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;lake-preview-codeblock-content&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;span style=&quot;font-size: 13px ; letter-spacing: 0.12px ; color: rgb(89 , 89 , 89) ; font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;lake-preview-codeblock-content&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;font color=&quot;#595959&quot; face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 13px ; letter-spacing: 0.12px&quot;&gt;  &lt;/span&gt;&lt;/font&gt;&lt;font color=&quot;#595959&quot; face=&quot;inherit&quot;&gt;&lt;span style=&quot;letter-spacing: 0.12px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="110" y="510" width="300" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
