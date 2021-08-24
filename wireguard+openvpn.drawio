@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2021-08-24T08:21:20.280Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="9Ucb-Vrz3eWNyfDEky_X" version="14.9.8" type="github"><diagram id="_pQyz28P-7yUtQk4ai9H" name="Page-1">1VhNb+MgEP01HGsZMP442om7e1mpUrXa9ujGbGzJMREhX/vrF2Ic2+C0adUk7SkwDAO89zwDAXiy2P3g2bL4xXJaAeTmO4CnACGIA1/+KMu+sQQ+agxzXubaqTM8lv+oNrraui5zuho4CsYqUS6HxhmrazoTA1vGOdsO3f6yarjqMptTy/A4yyrb+qfMRdFYQxR09p+0nBftytCPmpFF1jrrk6yKLGfbngmnAE84Y6JpLXYTWinwWlyaefcnRo8b47QW50woovswDL3fWU3o7o7OcLi5uyNNlE1WrfWB9WbFvkVARpFgy04iT7BUxlnF1jJosi1KQR+X2UwZt5J/aSvEopI9KJs6NOWC7k7uGR6RkBKibEEF30sXPQF5Gjytnra77ahAobYVfRqINmaa/vkxdIeQbGiQ3gEYsgFLfRBNQDgFKQFhDGKoGlEE4hCk9yCZgCjelpzO1xnPAfIrucfkhcvWXLVKiVrsBQ50QwcS5KgPxvTZHJxghBzohw52oEUSZ+s6p2rj7lWIwXhITGQTA9EIMf6lePEtXh4mErMO+BQDqZQQsiWtN8tapYyqVKcdZwS6DnGQhNq1HXpsuiY12HbvVhw6I9d37M/t2kz6QyIRGfnExpiMLsVk8H4mV5RLDI4DL7KSyKw+QizqM4teZ9YgdsS7Xce1aL39B0rcr8ZrNJ45CUhc1ZD5M05VI5FZ1MaP1nmsyvmh/GSrVTlTBUlkXNjmHpISLb5/0qgfOs+q45C2O931B6f7trcrxVPnKXvPvZFukuq0c5o909y6UBicyXOxNZ/Rt7OZPN6cireqka2BHsdkhOLWxmmViXIz3O4Y73qFB1aqfNlKDHonJNaGaI6pZ/VvJmagyAjkGoEaHKxABxkej/1xZcITRf3C0tQSg32BHeU2LrFOzp2CnwcCHpfzJ0oTnSnN4JbS9M3sZyrqXGn6ZBjIulheWpp4RJqRKnNJAtIQJCmI4KFxD6KDRsMUxOQ1jdasVpf5PFsVh3oEPzdjvkfON8iYN5UlNmTpmcX2XFliQ5aed2VZepYs+9cf7+bXH88EaOT6c90HCrSf2n3I8M0hM1PdF4DMfgp8WvHtCikaVFJ4Zpq70cWw/fC+dp4jyJAS/mCeI8EwEA6vnOfCaygw+FYKJN9Bgb7xpPDNAnmuAgPjkUPMkv1hBcpu9+dv4979hY7T/w==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-08-24T09:06:11.754Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="pN6_JcP23szOnAGTGZJI" version="14.9.8" type="github">
+  <diagram id="_pQyz28P-7yUtQk4ai9H" name="Page-1">
+    <mxGraphModel dx="1376" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="h9F8884Uan5ex-ec38v--5" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="40" width="280" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="h9F8884Uan5ex-ec38v--2" value="服务器：wireguard&lt;br&gt;ip:47.108.152.76&lt;br&gt;vip:192.168.3.1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="330" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h9F8884Uan5ex-ec38v--6" value="PC:wireguard、openvpn client&lt;br&gt;ip:10.5.23.10&lt;br&gt;wireguard vip:192.168.3.3&lt;br&gt;openvpn vip:192.168.206.2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="60" y="250" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="h9F8884Uan5ex-ec38v--7" value="网关:wireguard、openvpn server、bridge&lt;br&gt;ip2:10.5.23.12&lt;br&gt;wireguard ip:192.168.3.2&lt;br&gt;bridge ip:192.168.206.1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="500" y="250" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="h9F8884Uan5ex-ec38v--9" value="数据流" style="endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="h9F8884Uan5ex-ec38v--6" target="h9F8884Uan5ex-ec38v--2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="250" as="sourcePoint" />
+            <mxPoint x="190" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h9F8884Uan5ex-ec38v--12" value="数据流" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="h9F8884Uan5ex-ec38v--2" target="h9F8884Uan5ex-ec38v--7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="200" as="sourcePoint" />
+            <mxPoint x="650" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h9F8884Uan5ex-ec38v--13" value="逻辑连接" style="endArrow=none;dashed=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="h9F8884Uan5ex-ec38v--6" target="h9F8884Uan5ex-ec38v--7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="490" as="sourcePoint" />
+            <mxPoint x="350" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h9F8884Uan5ex-ec38v--14" value="192.168.206.4" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h9F8884Uan5ex-ec38v--15" value="192.168.206.3" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="650" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h9F8884Uan5ex-ec38v--17" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="h9F8884Uan5ex-ec38v--14" target="h9F8884Uan5ex-ec38v--7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="430" as="sourcePoint" />
+            <mxPoint x="570" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h9F8884Uan5ex-ec38v--18" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="h9F8884Uan5ex-ec38v--15" target="h9F8884Uan5ex-ec38v--7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="640" as="sourcePoint" />
+            <mxPoint x="740" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
