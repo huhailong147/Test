@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-24T09:06:11.754Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="pN6_JcP23szOnAGTGZJI" version="14.9.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-26T05:42:06.192Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="sd9jrt07s9OtNldCtV8L" version="14.9.8" type="github">
   <diagram id="_pQyz28P-7yUtQk4ai9H" name="Page-1">
-    <mxGraphModel dx="1376" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -50,6 +50,54 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="690" y="640" as="sourcePoint" />
             <mxPoint x="740" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UftxnAJPEie_eB13tJ46-1" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="239" y="560" width="280" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="UftxnAJPEie_eB13tJ46-2" value="服务器：openvpn、bridge&lt;br&gt;ip:47.108.152.76&lt;br&gt;bridge ip:10.8.0.1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="314" y="610" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UftxnAJPEie_eB13tJ46-3" value="PC:openvpn client&lt;br&gt;ip:10.5.23.10&lt;br&gt;vip:10.8.0.2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="59" y="770" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UftxnAJPEie_eB13tJ46-4" value="网关:openvpn client、bridge&lt;br&gt;ip2:10.5.23.12&lt;br&gt;bridge ip:10.8.0.50" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="499" y="770" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UftxnAJPEie_eB13tJ46-5" value="数据流" style="endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" source="UftxnAJPEie_eB13tJ46-3" target="UftxnAJPEie_eB13tJ46-2" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="139" y="770" as="sourcePoint" />
+            <mxPoint x="189" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UftxnAJPEie_eB13tJ46-6" value="数据流" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="UftxnAJPEie_eB13tJ46-2" target="UftxnAJPEie_eB13tJ46-4" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="599" y="720" as="sourcePoint" />
+            <mxPoint x="649" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UftxnAJPEie_eB13tJ46-7" value="逻辑连接" style="endArrow=none;dashed=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" source="UftxnAJPEie_eB13tJ46-3" target="UftxnAJPEie_eB13tJ46-4" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="299" y="1010" as="sourcePoint" />
+            <mxPoint x="349" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UftxnAJPEie_eB13tJ46-8" value="10.8.0.x" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="449" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UftxnAJPEie_eB13tJ46-9" value="10.8.0.x" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="649" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UftxnAJPEie_eB13tJ46-10" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" source="UftxnAJPEie_eB13tJ46-8" target="UftxnAJPEie_eB13tJ46-4" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="519" y="950" as="sourcePoint" />
+            <mxPoint x="569" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UftxnAJPEie_eB13tJ46-11" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" source="UftxnAJPEie_eB13tJ46-9" target="UftxnAJPEie_eB13tJ46-4" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="689" y="1160" as="sourcePoint" />
+            <mxPoint x="739" y="1110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
