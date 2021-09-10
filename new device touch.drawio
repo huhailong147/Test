@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-10T09:33:12.694Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="xL4Nn_zv6Cj0rNjCLDqv" version="15.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-10T10:06:30.368Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="V62-7nbmYQYsRLcslvo-" version="15.0.4" type="github">
   <diagram id="fSahD2rUQ293iNaQsKWA" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -146,6 +146,54 @@
         </mxCell>
         <mxCell id="X5Kei8PSyGU6GzDg7MXw-43" value="网关端" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="606.08" y="650" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="X5Kei8PSyGU6GzDg7MXw-44" value="" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png;dashed=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X5Kei8PSyGU6GzDg7MXw-45" value="" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png;dashed=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="374" y="1220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X5Kei8PSyGU6GzDg7MXw-46" value="" style="image;html=1;image=img/lib/clip_art/computers/Laptop_128x128.png;dashed=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X5Kei8PSyGU6GzDg7MXw-47" value="" style="image;html=1;image=img/lib/clip_art/computers/MacBook_128x128.png;dashed=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1420" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X5Kei8PSyGU6GzDg7MXw-48" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;dashed=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="486.08" y="1110" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X5Kei8PSyGU6GzDg7MXw-49" value="" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png;dashed=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="631.0799999999999" y="1220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X5Kei8PSyGU6GzDg7MXw-51" value="" style="image;html=1;image=img/lib/clip_art/networking/Wireless_Router_N_128x128.png;dashed=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="747" y="1320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X5Kei8PSyGU6GzDg7MXw-52" value="" style="image;html=1;image=img/lib/clip_art/computers/Server_Tower_128x128.png;dashed=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="1210" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X5Kei8PSyGU6GzDg7MXw-53" value="" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png;dashed=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="890" y="1320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X5Kei8PSyGU6GzDg7MXw-54" value="" style="image;html=1;image=img/lib/clip_art/computers/Server_Tower_128x128.png;dashed=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="1330" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X5Kei8PSyGU6GzDg7MXw-55" value="" style="image;html=1;image=img/lib/clip_art/computers/Server_Tower_128x128.png;dashed=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1440" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X5Kei8PSyGU6GzDg7MXw-56" value="" style="html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.comm_link_edge;html=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="450" y="1240" as="sourcePoint" />
+            <mxPoint x="530" y="1170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X5Kei8PSyGU6GzDg7MXw-57" value="" style="html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.comm_link_edge;html=1;dashed=1;exitX=0.8;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="X5Kei8PSyGU6GzDg7MXw-48">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="520" y="1270" as="sourcePoint" />
+            <mxPoint x="650" y="1240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="1186" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
