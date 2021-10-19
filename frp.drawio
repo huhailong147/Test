@@ -1,1 +1,140 @@
-<mxfile host="app.diagrams.net" modified="2021-10-19T06:38:30.402Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="mzwNEIlhWE87BE5EYACR" version="15.5.2" type="github"><diagram id="nAy6lN9B2YCFiDMp1ADA" name="Page-1">zZhdb9owFIZ/TS6pkpgk5ZIC2yoxrRKbtl66ySHx5sSZMV/99bOJQzAGlk2lQepF/PoD+zlvjk/joFG++chxmX1mCVDHd5ONg8aO73t933fUn5tsKyUKtZBykuhBjTAjr6BFV6tLksDCGCgYo4KUphizooBYGBrmnK3NYXNGzV8tcQqWMIsxtdXvJBFZpd77UaN/ApJm9S974aDqyXE9WJ9kkeGErQ8kNHHQiDMmqqd8MwKq4NVcqnkfzvTuN8ahEG0mzJ4e3Zff8exxlU+eIjqcfv3W6+lgrDBd6gPrzYptTYCzZZGAWsR10MM6IwJmJY5V71rGXGqZyKlsefJRLwdcwObsPr396aVtgOUg+FYO0RP8ew1MO2ZvhXXD36uhZofskRaxjnm6X7vBIh80mX+g5AUWJhGXFilIpHV0k3GRsZQVmE4a9cFk2YyZMlZqgj9BiK1+D/BSMJOvZMi3P/T8XeNZNe6CujneHHaOt7pV7VVt8HJU5HnYksdwCYZ+CzFPQVwah06HmQPFgqzMjbx9yKyIzXmp8gQl6sRdmzw88rgftPN4eDWL28CWSccWb1z9bJj66hZHLS0ederwsNPoeJ0loLbR6TgBRa3vjCl+kVWTgRlTkhbyOZZ0gEtBZRsiy5Kh7shJklQRhQV5xS+79RTokpFC7A4TPDjB+FK60jWTntxUKodBuWC9s8mt594hzzcTXNVqjV6v/aQOczCEzecLEFZs9lv4/3Ch274v+oObuzDcW78wvPdLSUHLlDToMiPZReyXEopVWdyOzYPoLjB8ju679nl4gdoCuDxu59SOk0P30Oy7T+UGNPS8Qb9zXIHvH7sssIHV0iGvq/2DOTjDK3Rdt3Nex1fPCXe9K6y6tLDu6jOvozy5MKEsBGe/YMQok6XVuGCFuofmhNIjqX0VdioKZpzeIBDI+/uXkfDEa369SNhVk6px0TC6Bd9auPo2rvc1bt/ClQmx4xXcIq/B1XjJZvPhsyrhm8/HaPIH</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-19T09:59:25.043Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="yAMoeLLXPtN1TLMpoiBB" version="15.5.2" type="github">
+  <diagram id="nAy6lN9B2YCFiDMp1ADA" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SPI0bqcSIvmEP7lALTU--2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="210" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="SPI0bqcSIvmEP7lALTU--15" value="tcp" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="SPI0bqcSIvmEP7lALTU--1" target="SPI0bqcSIvmEP7lALTU--13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SPI0bqcSIvmEP7lALTU--1" value="frp client" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="225" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SPI0bqcSIvmEP7lALTU--11" value="udp" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="SPI0bqcSIvmEP7lALTU--3" target="SPI0bqcSIvmEP7lALTU--7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SPI0bqcSIvmEP7lALTU--16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="SPI0bqcSIvmEP7lALTU--3" target="SPI0bqcSIvmEP7lALTU--13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SPI0bqcSIvmEP7lALTU--17" value="tcp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SPI0bqcSIvmEP7lALTU--16" vertex="1" connectable="0">
+          <mxGeometry x="-0.312" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SPI0bqcSIvmEP7lALTU--3" value="frp client" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="225" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SPI0bqcSIvmEP7lALTU--10" value="udp" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="SPI0bqcSIvmEP7lALTU--5" target="SPI0bqcSIvmEP7lALTU--9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SPI0bqcSIvmEP7lALTU--5" value="Openvpn client" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="57.5" y="385" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SPI0bqcSIvmEP7lALTU--6" value="Openvpn server" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="385" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SPI0bqcSIvmEP7lALTU--7" value="udp:1194" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="522.5" y="355" width="55" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SPI0bqcSIvmEP7lALTU--9" value="udp:6000" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="285" width="55" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SPI0bqcSIvmEP7lALTU--12" value="frp server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="310" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SPI0bqcSIvmEP7lALTU--13" value="tcp:7000" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="240" width="55" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SPI0bqcSIvmEP7lALTU--14" value="http:7500" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="290" width="55" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k7LbFU3ve7R5pX6XkS2O-1" value="平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="585" width="100" height="395" as="geometry" />
+        </mxCell>
+        <mxCell id="k7LbFU3ve7R5pX6XkS2O-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="k7LbFU3ve7R5pX6XkS2O-1">
+          <mxGeometry x="45" y="100" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="k7LbFU3ve7R5pX6XkS2O-42" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="k7LbFU3ve7R5pX6XkS2O-1">
+          <mxGeometry x="45" y="285" width="10" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="k7LbFU3ve7R5pX6XkS2O-3" value="PC端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="585" width="100" height="395" as="geometry" />
+        </mxCell>
+        <mxCell id="k7LbFU3ve7R5pX6XkS2O-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="k7LbFU3ve7R5pX6XkS2O-3">
+          <mxGeometry x="45" y="90" width="10" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="k7LbFU3ve7R5pX6XkS2O-34" value="连接 frps" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="k7LbFU3ve7R5pX6XkS2O-3" target="k7LbFU3ve7R5pX6XkS2O-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="215" as="sourcePoint" />
+            <mxPoint x="140" y="215" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k7LbFU3ve7R5pX6XkS2O-35" value="开启 openvpn client" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="k7LbFU3ve7R5pX6XkS2O-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="235" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="235" />
+            </Array>
+            <mxPoint x="60" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k7LbFU3ve7R5pX6XkS2O-5" value="frp server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="585" width="100" height="395" as="geometry" />
+        </mxCell>
+        <mxCell id="k7LbFU3ve7R5pX6XkS2O-39" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="k7LbFU3ve7R5pX6XkS2O-5">
+          <mxGeometry x="45" y="297" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="k7LbFU3ve7R5pX6XkS2O-7" value="网关" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="585" width="100" height="395" as="geometry" />
+        </mxCell>
+        <mxCell id="k7LbFU3ve7R5pX6XkS2O-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="k7LbFU3ve7R5pX6XkS2O-7">
+          <mxGeometry x="45" y="107" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="k7LbFU3ve7R5pX6XkS2O-31" value="开启 openvpn server" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="k7LbFU3ve7R5pX6XkS2O-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="137" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="137" />
+            </Array>
+            <mxPoint x="60" y="157" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k7LbFU3ve7R5pX6XkS2O-25" value="请求连接" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="k7LbFU3ve7R5pX6XkS2O-24" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="685" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k7LbFU3ve7R5pX6XkS2O-26" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="164" y="761" as="targetPoint" />
+            <mxPoint x="340" y="761" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k7LbFU3ve7R5pX6XkS2O-28" value="连接通知" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;exitX=1;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="k7LbFU3ve7R5pX6XkS2O-27" parent="1" source="k7LbFU3ve7R5pX6XkS2O-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="595" y="685" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k7LbFU3ve7R5pX6XkS2O-33" value="连接 frps" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=0;exitY=0.788;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="k7LbFU3ve7R5pX6XkS2O-27" target="k7LbFU3ve7R5pX6XkS2O-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="560" y="820" as="sourcePoint" />
+            <mxPoint x="640" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k7LbFU3ve7R5pX6XkS2O-40" value="console" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;exitX=1;exitY=0.126;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="k7LbFU3ve7R5pX6XkS2O-39" parent="1" source="k7LbFU3ve7R5pX6XkS2O-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="880" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k7LbFU3ve7R5pX6XkS2O-41" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="k7LbFU3ve7R5pX6XkS2O-39" parent="1" target="k7LbFU3ve7R5pX6XkS2O-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="956" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
